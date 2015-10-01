@@ -1,0 +1,19 @@
+{
+    "port":            8080,
+    "access_log":      "log/transcoder_access_log",
+    "database":        {
+    	"dialect": "mysql",
+        "username": "root",
+        "password" : "root",
+        "database": "codem-transcoder",
+        "host": "localhost",
+        "port": 3306
+	},
+    "slots":           8,
+    "interface":       "127.0.0.1",
+    "encoder":         "/usr/local/bin/ffmpeg",
+    "scratch_dir":     "/tmp",
+    "use_scratch_dir": true,
+    "ffprobe":         "/usr/local/bin/ffprobe"
+}
+

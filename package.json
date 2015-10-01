@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "sequelize": "~1.6.0",
-    "sqlite3": "~2.2.0",
+    "sqlite3": "~3.0.5",
+    "mysql" : "2.9.0",
     "mkdirp": "~0.3.4",
     "express": "~2.5.11",
     "argsparser": "~0.0.6",
